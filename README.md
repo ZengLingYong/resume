@@ -13,10 +13,10 @@
 
 ### 过往项目
 - GSS1.0系统（内测阶段，暂不对外发布）
-- [漫越通保网（电子投标保函平台）]('http://www.manyuetech.com)
+- [漫越通保网（电子投标保函平台）](http://www.manyuetech.com)
 - 微信公众号“小王子”
 - [VPickPost KOL MARKETING](http://www.vpickpost.com)
-- [Fasary]('http://fasary.com)
+- [Fasary](http://fasary.com)
 - [盈安护理（PC/Mobile)](http://yingon.com.hk)
 - [卡比别墅预定平台(PC/Mobile)](http://www.karpediemvilla.com)
 
