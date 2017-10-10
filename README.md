@@ -20,13 +20,9 @@
 - [盈安护理（PC/Mobile)](http://yingon.com.hk)
 - [卡比别墅预定平台(PC/Mobile)](http://www.karpediemvilla.com)
 
-### 初始化项目
-    npm install
-### 运行编译
-    npm start
-访问：http://localhost:8080/
-### 打印预览
-打开上述链接，在浏览器中按
-    ctrl+p
+### 工作经历
+- 深圳漫越科技有限公司
+- 香港景远国际有限公司
+- 深圳圈圈科技有限公司（实习）
 
-借鉴：https://github.com/eternityspring/eternityspring.github.io
+> 借鉴：https://github.com/eternityspring/eternityspring.github.io
