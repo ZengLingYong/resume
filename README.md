@@ -9,3 +9,5 @@
 ### 打印预览
 打开上述链接，在浏览器中按
     ctrl+p
+
+借鉴：https://github.com/eternityspring/eternityspring.github.io
