@@ -1,5 +1,5 @@
 ## KenTsang
-个人简历。
+个人简历
 ## 简介
 ### 初始化项目
     npm install
