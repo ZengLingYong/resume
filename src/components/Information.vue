@@ -1,5 +1,5 @@
 <template>
-  <div class="box-wrap information">
+  <div class="box-wrap information" id="information">
     <section class="section section-header">
       <div class="section-bg section-header-bg"></div>
       <div class="section-bg section-content-bg"></div>
@@ -16,8 +16,8 @@
         <div class="section-content">
           <div class="content-box">
             <div class="name-slogan">
-              <h2 class="wow inShow no-print" data-wow-delay="0.1s">
-                <span class="text-light">{{userInfo.lastName}}</span>&nbsp;{{userInfo.firstName}}                
+              <h2 class="name-in wow inShow no-print" data-wow-delay="0.1s">
+                <span class="text-light">{{userInfo.lastName}}</span>&nbsp;{{userInfo.firstName}}
               </h2> 
               <div class="description wow inShow" data-wow-delay="0.15s">{{userInfo.slogan}}</div>
             </div>
@@ -68,9 +68,9 @@
                   </a>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                  <a class="item wow inShow" data-wow-delay="0.75s" :href="'mailto:' + userInfo.email" target="_blank">
+                  <a class="item wow inShow" data-wow-delay="0.75s" :href="'mailto:' + userInfo.github" target="_blank">
                     <h4>Github</h4>
-                    <div class="info">{{userInfo.Github}}</div>
+                    <div class="info">{{userInfo.github}}</div>
                   </a>
                 </div>
               </div>
@@ -111,6 +111,8 @@
     overflow: hidden;
   }
   .name {
+    height: 40px;
+    line-height: 40px;
     font-size: 2rem;
     font-weight: 200;
     margin-top: 1rem;
@@ -119,6 +121,10 @@
   .name-slogan {
     position: relative;
     top: -2rem;
+    .name-in {
+      height: 68px;
+      line-height: 68px;
+    }
   }
   .description {
     font-size: 1.2rem;
@@ -142,6 +148,10 @@
     flex-direction: column;
   }
   .contact-info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     h4 {
       font-size: 1rem;
       margin: 1.5rem 0;
@@ -155,4 +165,9 @@
     }
   }
 
+  @media (max-width: 1120px) {
+    .contact-info{
+      position: relative;
+    }
+  }
 </style>

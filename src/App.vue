@@ -23,6 +23,7 @@ import Skills from './components/Skills'
 import ProjectExp from './components/ProjectExp'
 import Usually from './components/Usually'
 import Contact from './components/Contact'
+import WOW from 'wowjs'
 
 export default {
   data () {
@@ -40,6 +41,11 @@ export default {
       this.$http.get('/static/data.json').then(response => {
         const resp = response.data
         this.userInfo = resp
+        this.$nextTick(() => {
+          new WOW.WOW({
+            live: false
+          }).init()
+        })
       }).catch(err => {
         console.log(err)
       })

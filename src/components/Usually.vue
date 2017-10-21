@@ -9,11 +9,11 @@
             <h2 class="title">常逛&nbsp;/&nbsp;
               <small><i>Usually</i></small>
             </h2>
-            <div class="description">经常逛的技术或者设计相关网站</div>
+            <div class="description">经常逛的论坛或技术相关网站</div>
           </div>
         </header>
         <div class="section-content">
-          <div class="row usually">
+          <div class="row usually wow fadeIn" data-wow-delay="0.25s">
             <div class="col-lg-4 col-md-6" v-for="u in userInfo.usually">
               <a v-if="u.link" :href="u.link" target="_blank" class="item" :title="u.link">
               <i class="fa fa-github"></i>

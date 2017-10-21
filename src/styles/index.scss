@@ -31,10 +31,15 @@ ul {
   display: flex;
   flex-flow: row wrap;
 }
+/**/
 .text-light {
   color: $light;
 }
-/**/
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 .text-center {
   text-align: center;
 }
@@ -114,12 +119,58 @@ ul {
   .header, .section-content {
     height: 100vh;
   }
-} 
+}
 
-.img-responsive {
-  max-width: 100%;
-  height: auto;
-  display: block;
+@media (max-width: 1120px) {
+  .section{
+    .header{
+      width:100%;
+      text-align: left;
+    }
+    .section-content{
+      width:100%;
+    }
+  }
+  .section-header{
+    .header{
+      height:auto;
+    }
+    .section-content{
+      height:auto;
+    }
+  }
+  .section:nth-child(even){
+    .header{
+      background: $bg1;
+    }
+    .section-header-bg{
+      background: $bg1;
+    }
+    .section-content{
+      background: $bg2;
+    }
+    .section-content-bg{
+      background: $bg2;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .section{
+    .header{
+      padding:15px;
+    }
+    .section-content{
+      padding:15px;
+    }
+  }
+  .section-header{
+    .name-slogan{
+      top:0;
+    }
+  }
+  h2{
+    font-size: 2.5rem;
+  }
 }
 
 .inShow {
@@ -156,6 +207,22 @@ ul {
     transform: translate3d(0, 0, 0) scale(1);
     opacity:1;
   }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
 }
 
 .progressShow {

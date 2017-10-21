@@ -1,6 +1,6 @@
 <template>
   <div class="box-wrap intro">
-    <section class="section">
+    <section class="section" data-wow-duration="2s" data-wow-delay="5s">
       <div class="container">
         <div class="section-bg section-header-bg"></div>
         <div class="section-bg section-content-bg"></div>

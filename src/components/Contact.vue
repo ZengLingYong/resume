@@ -46,7 +46,7 @@
             <h2 class="wow inShow">
               <span class="text-light">{{userInfo.lastName}}</span>&nbsp;{{userInfo.firstName}}
             </h2>
-            <div class="description wow inShow" data-wow-delay="0.05s">{{userInfo.slogan}}</div>
+            <div class="description wow bounceInLeft" data-wow-delay="0.05s">{{userInfo.slogan}}</div>
           </div>
         </div>
       </div>
@@ -72,6 +72,9 @@
     h4 {
       margin-top: 0.3rem;
       margin-bottom: 0.8rem;
+    }
+    .item {
+      margin-bottom: 1rem;
     }
   }
 </style>

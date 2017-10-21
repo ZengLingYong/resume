@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import axios from 'axios'
 import 'normalize.css/normalize.css'
+// import './styles/animated.css'
 
 Vue.config.productionTip = false
 

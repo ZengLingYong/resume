@@ -9,7 +9,7 @@
             <h2 class="title">技能&nbsp;/&nbsp;
               <small><i>Skills</i></small>
             </h2>
-            <div class="description">我所掌握的工具和技术栈</div>
+            <div class="description">所掌握的工具和技术栈</div>
           </div>
         </header>
         <div class="section-content">
@@ -44,6 +44,8 @@
 </script>
 
 <style lang="scss" scoped>
+  @import '../styles/variable.scss';
+
   .item {
     margin-bottom: 2rem;
     padding-right: 2rem;
@@ -58,10 +60,10 @@
     .progress {
       position: relative;
       height: 5px;      
-      background: #404242;
+      background: $border;
       .progress-bar {
         height: 100%;
-        background: #e0a80d;
+        background: $light;
       }
     }
   }
