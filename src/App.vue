@@ -1,7 +1,7 @@
 <<template>
   <div id="app">
     <Loading :loading="loading"></Loading>
-    <TopLink></TopLink>
+    <TopLink :userInfo="userInfo"></TopLink>
     <Information :userInfo="userInfo"></Information>
     <Intro :userInfo="userInfo"></Intro>
     <Experience :userInfo="userInfo"></Experience>
