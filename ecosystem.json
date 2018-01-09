@@ -16,7 +16,7 @@
       "user": "s_manager",
       "host": ["120.55.49.29"],
       "port": "22",
-      "ref": "origin/dev",
+      "ref": "gitee/dev",
       "repo": "git@gitee.com:tsangweb/resume.git",
       "path": "/www/resume/production",
       "ssh_options": "StrictHostKeyChecking=no",
