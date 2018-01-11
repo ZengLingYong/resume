@@ -16,15 +16,15 @@
   "github":"https://github.com/zenglingyong",
   "email":"786468793@qq.com",
   "intro":[
-    "1.掌握HTML5,CSS3,Javascript等Web前端开发技术；",
-    "2.熟悉 jQuery,Vue.js,AngularJs 等主流开源框架与类库；",
+    "1.掌握HTML5, CSS3, Javascript等Web前端开发技术；",
+    "2.熟悉 jQuery, Vue, AngularJs 等主流开源框架与类库；",
     "3.了解前端自动构建化，模块化，组件化的开发模式；",
-    "4.项目中应用 nodejs,webpack,gulp,sass,ES6 等技术栈；",
+    "4.项目中应用 nodejs,webpack,gulp,vue,sass,ES6 等技术栈；",
     "5.熟悉Git版本控制，代码仓库托管，敏捷式团队开发的工作模式;",    
     "6.具备微信公众号，微信小程序的项目开发经验;",
     "6.具备前端性能优化，浏览器兼容，响应式布局，webapp，PC/移动端开发经验；",
-    "7.了解PHP后端开发及MySql数据库技术，协作对接api文档;",
-    "8.对用户体验有追求。喜欢研究新的技术并运用到实际项目中。"
+    "7.了解PHP后端开发及MySql，协作后端对接api文档;",
+    "8.对用户体验有追求，喜欢研究新的技术并运用到实际项目中。"
   ],
   "experience":[
     {

@@ -10,6 +10,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 
+function resolveApp(relativePath) {
+  return path.resolve(relativePath);
+}
+
 const env = config.build.env
 
 const webpackConfig = merge(baseWebpackConfig, {
@@ -54,6 +58,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     new HtmlWebpackPlugin({
       filename: config.build.index,
       template: 'index.html',
+      favicon: resolveApp('favicon.ico'),
       inject: true,
       minify: {
         removeComments: true,
