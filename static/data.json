@@ -17,19 +17,27 @@
   "email":"786468793@qq.com",
   "intro":[
     "1.掌握HTML5,CSS3,Javascript等Web前端开发技术；",
-    "2.熟悉jQuery,AngularJs,Vue.js 等主流开源框架与类库；",
+    "2.熟悉 jQuery,Vue.js,AngularJs 等主流开源框架与类库；",
     "3.了解前端自动构建化，模块化，组件化的开发模式；",
-    "4.项目中应用npm,webpack,gulp,sass,ES6 等技术栈；",
-    "5.具备前端性能优化，浏览器兼容，响应式布局，桌面端/移动端开发经验；",
-    "6.了解PHP后端开发及MySql数据库技术;",
-    "7.善于学习，喜欢折腾。对用户体验有追求。喜欢研究新的技术并运用到实际项目中。"
+    "4.项目中应用 nodejs,webpack,gulp,sass,ES6 等技术栈；",
+    "5.熟悉Git版本控制，代码仓库托管，敏捷式团队开发的工作模式;",    
+    "6.具备微信公众号，微信小程序的项目开发经验;",
+    "6.具备前端性能优化，浏览器兼容，响应式布局，webapp，PC/移动端开发经验；",
+    "7.了解PHP后端开发及MySql数据库技术，协作对接api文档;",
+    "8.对用户体验有追求。喜欢研究新的技术并运用到实际项目中。"
   ],
   "experience":[
     {
-      "time":"2017年2月-now",
+      "time": "2017年10月-2017年12月",
+      "title": "深圳第壹教育有限公司",
+      "intro": "WEB前端开发",
+      "description": "担任公司平台小程序项目的立项，前端架构规划，开发等工作。<br>期间学习小程序API文档，不断地踩坑填坑解决问题。总结出<a href='https://segmentfault.com/a/1190000012337873' target='_blank'>《微信小程序爬坑指南》</a>个人笔记。<br><br><b>成果：</b><ul><li>“大利推广”小程序</li><li>“大利推广商家版”小程序</li><li>平台小程序CMS管理系统</li></ul>"
+    },
+    {
+      "time":"2017年2月-2017年10月",
       "title":"深圳漫越科技有限公司",
       "intro":"WEB前端开发",
-      "description":"工作方向更专注于前端开发。掌握了前端自动构建化的开发方式。学习了Vue，React，Weui等流行框架。对公司平台官网进行前端制作优化，开发微信公众号页面，H5活动页面等。<br>采用前后端分离方式，vue + element-ui开发公司新版用户系统。<br>并利用业余时间用Hexo+Next搭建了个人主页，并坚持在简书，博客园，segmentfault分享记录自己的技术知识。<br><br><b>成果：</b><ul><li><a href='http://www.manyuetech.com' target='_blank'>漫越通保网（电子投标保函平台）</a></li><li>微信公众号“小王子”</li><li>GSS1.0系统（内测阶段，暂不对外发布）</li><li><a href='http://www.wuliv.com' target='_blank'>个人主页 —— Kenz's Blog</a></li></ul>"
+      "description":"工作方向更专注于前端开发。掌握了前端自动构建化的开发方式。学习了Vue，React，Weui等流行框架。对公司平台官网进行前端制作优化，开发微信公众号页面，H5活动页面等。<br>采用前后端分离方式，vue + element-ui开发公司新版用户系统。<br>并利用业余时间用Hexo+Next搭建了个人主页，并坚持在简书，博客园，segmentfault分享记录自己的技术知识。<br><br><b>成果：</b><ul><li><a href='http://www.manyuetech.com' target='_blank'>漫越通保网（电子投标保函平台）</a></li><li>微信公众号“保函小王子”</li><li>电子保函GSS1.0系统（内测阶段，暂不对外发布）</li><li><a href='http://www.wuliv.com' target='_blank'>个人主页 —— Kenz's Blog</a></li></ul>"
     },
     {
       "time":"2012年11月-2016.11月",
