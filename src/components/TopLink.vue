@@ -13,7 +13,7 @@
     props: {
       userInfo: {
         type: Object,
-        default: null
+        default: {}
       }
     }
   }

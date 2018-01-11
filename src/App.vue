@@ -1,14 +1,14 @@
 <<template>
   <div id="app">
     <Loading :loading="loading"></Loading>
-    <TopLink :userInfo="userInfo"></TopLink>
-    <Information :userInfo="userInfo"></Information>
-    <Intro :userInfo="userInfo"></Intro>
-    <Experience :userInfo="userInfo"></Experience>
-    <Skills :userInfo="userInfo"></Skills>
-    <ProjectExp :userInfo="userInfo"></ProjectExp>
-    <Usually :userInfo="userInfo"></Usually>
-    <Contact :userInfo="userInfo"></Contact>
+    <TopLink v-if="userInfo" :userInfo="userInfo"></TopLink>
+    <Information v-if="userInfo" :userInfo="userInfo"></Information>
+    <Intro v-if="userInfo" :userInfo="userInfo"></Intro>
+    <Experience v-if="userInfo" :userInfo="userInfo"></Experience>
+    <Skills v-if="userInfo" :userInfo="userInfo"></Skills>
+    <ProjectExp v-if="userInfo" :userInfo="userInfo"></ProjectExp>
+    <Usually v-if="userInfo" :userInfo="userInfo"></Usually>
+    <Contact v-if="userInfo" :userInfo="userInfo"></Contact>
   </div>
 </template>
 
