@@ -16,18 +16,18 @@
   "github": "https://github.com/zenglingyong",
   "email": "786468793@qq.com",
   "intro": [
-    "1.掌握HTML5, CSS3, Javascript等Web前端开发技术；",
-    "2.掌握jQuery, Vue等主流开源框架与类库；",
+    "1.熟悉HTML5, CSS3, Javascript等Web前端开发技术；",
+    "2.熟悉jQuery, Vue等主流开源框架与类库；",
     "3.运用前端自动构建化，模块化，组件化的开发模式；",
     "4.项目中应用 nodejs,webpack,gulp,vue,sass,ES6 等技术栈；",
     "5.熟悉Git版本控制，代码仓库托管，敏捷式团队开发的工作模式;",
     "6.具备微信公众号，微信小程序的项目开发经验;",
-    "6.具备前端性能优化，浏览器兼容，响应式布局，webapp，PC/移动端开发经验；",
+    "7.具备前端性能优化，浏览器兼容，响应式布局，webapp，PC/移动端开发经验；",
     "7.了解PHP后端开发及MySql，协作后端对接api文档;",
     "8.对用户体验有追求，喜欢研究新的技术并运用到实际项目中。"
   ],
   "experience": [{
-      "time": "2017年10月-2017年12月",
+      "time": "2017年10月-2018年01月",
       "title": "深圳第壹教育有限公司",
       "intro": "WEB前端开发",
       "description": "参与公司平台小程序项目的立项，前端架构规划，开发等工作。<br>期间学习小程序API文档，不断地踩坑填坑解决问题，完成项目上线，并总结<a href='https://segmentfault.com/a/1190000012337873' target='_blank'>《微信小程序爬坑指南》</a>个人笔记。<br><br><b>成果：</b><ul><li>“大利推广”小程序</li><li>“大利推广商家版”小程序</li><li>平台小程序CMS管理系统</li></ul>"
