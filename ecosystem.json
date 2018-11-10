@@ -14,8 +14,8 @@
   "deploy": {
     "production": {
       "user": "s_manager",
-      "host": ["120.55.49.29"],
-      "port": "22",
+      "host": ["107.175.62.205"],
+      "port": "3999",
       "ref": "origin/dev",
       "repo": "git@gitee.com:tsangweb/resume.git",
       "path": "/www/resume/production",
