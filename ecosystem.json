@@ -18,7 +18,7 @@
       "port": "3999",
       "ref": "origin/dev",
       "repo": "git@gitee.com:tsangweb/resume.git",
-      "path": "/www/resume/production",
+      "path": "/home/s_manager/www/resume/production",
       "ssh_options": "StrictHostKeyChecking=no",
       "post-deploy": "cnpm i && npm run build && pm2 startOrRestart ecosystem.json --env production",
       "env": {
