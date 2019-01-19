@@ -17,7 +17,7 @@
       "host": ["107.175.62.205"],
       "port": "3999",
       "ref": "origin/dev",
-      "repo": "git@gitee.com:tsangweb/resume.git",
+      "repo": "git@github.com:ZengLingYong/resume.git",
       "path": "/www/resume/production",
       "ssh_options": "StrictHostKeyChecking=no",
       "post-deploy": "cnpm i && npm run build && pm2 startOrRestart ecosystem.json --env production",
